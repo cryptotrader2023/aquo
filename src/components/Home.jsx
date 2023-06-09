@@ -7,7 +7,7 @@ const Home = () => {
       <div className="row">
         <div className="col-md-12">
           <h2>Your Gateway to the Future of Liquidity</h2>
-          <ul>
+          <ul className="lead">
             <li>Real World Asset Tokenization</li>
             <li>Increased Investment Accessibility</li>
             <li>Security and Compliance for Investments</li>
@@ -16,7 +16,7 @@ const Home = () => {
             <li>Innovative Business Models</li>
             <li>Global Reach for Investors</li>
           </ul>
-          <p>
+          <p className="lead">
             Join Aquo today and unlock a world of asset liquidity possibilities. Experience seamless digital investment, trustworthy vetting processes, and a community of like-minded investors. Together, let's reshape the future of investments and achieve your financial goals.
           </p>
         </div>

@@ -10,6 +10,9 @@ const BusinessModels = () => {
           <p className="lead">
             At Aquo, we empower you with the creation of novel business models that were previously unexplored. Our innovative approach to asset tokenization opens doors to new investment opportunities, such as gradual homeownership, future share options, tokenization of unique assets, and global reach. These models enable you to capitalize on emerging trends, diversify your portfolio, and achieve your investment objectives in innovative ways.
           </p>
+	    <div className="text-center">
+        <img src="/business.png" alt="Business" className="img-fluid" style={{ height: "400px" }} />
+      </div>
           <p className="lead">
             Our platform serves as a catalyst for innovation and growth. By embracing the power of asset tokenization, you can explore gradual homeownership models, allowing you to gradually acquire ownership in real estate properties. This approach offers flexibility and affordability, making homeownership more accessible and manageable.
           </p>

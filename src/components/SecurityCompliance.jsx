@@ -5,10 +5,10 @@ const SecurityCompliance = () => {
   return (
     <div className="container">
       <h1 className="mt-5">Security and Compliance</h1>
-      <p className="mt-4">
+      <p className="lead">
         At Aquo, we prioritize the security and compliance of our platform to provide our clients with a safe and trustworthy investment environment. Our commitment to security and compliance is fundamental to building trust and ensuring the protection of your assets. Here's why our platform is secure and compliant:
       </p>
-      <ol className="mt-3">
+      <ol className="lead">
         <li>
           <strong>Comprehensive Approach:</strong> We have developed a comprehensive approach that combines off-chain and on-chain methods to maintain robust security measures. By leveraging established legal frameworks, regulatory compliance, and trusted intermediaries, we ensure the integrity of transactions and adherence to regulatory standards.
         </li>
@@ -31,10 +31,10 @@ const SecurityCompliance = () => {
           <strong>Expert Team:</strong> We have a dedicated team of security experts who are constantly monitoring and improving our platform's security infrastructure. Their expertise and proactive approach help us stay ahead of evolving security threats.
         </li>
       </ol>
-      <p className="mt-4">
+      <p className="lead">
         By prioritizing security and compliance, Aquo aims to provide you with a reliable and trustworthy platform for asset tokenization. We understand the importance of maintaining the highest standards of security to protect your investments and provide you with peace of mind.
       </p>
-      <p className="mt-4">
+      <p className="lead">
         Join us on this journey to unlock liquidity, explore new investment opportunities, and reshape the future of investments through secure and compliant asset tokenization.
       </p>
     </div>

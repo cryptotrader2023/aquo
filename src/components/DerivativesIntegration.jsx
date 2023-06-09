@@ -11,7 +11,7 @@ const DerivativesIntegration = () => {
             Derivatives are an integral part of our investment ecosystem, offering you a wide range of possibilities and strategies to enhance your investment experience. Here's an explanation of what is possible with derivatives:
           </p>
 	     <div className="text-center">
-        <img src="/derivatives.jpg" alt="Derivatives" className="img-fluid" style={{ height: "400px" }} />
+        <img src="/derivatives.png" alt="Derivatives" className="img-fluid" style={{ height: "400px" }} />
       </div>
           <h3>Risk Hedging:</h3>
           <p className="lead">

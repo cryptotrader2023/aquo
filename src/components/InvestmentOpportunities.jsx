@@ -11,12 +11,20 @@ const InvestmentOpportunities = () => {
             At Aquo, we offer a comprehensive management platform that enables you to participate in fractional ownership and invest in a variety of assets, including real estate and Special Purpose Vehicles (SPVs). Our platform allows you to access the benefits of asset tokenization, providing liquidity and diversification in your investment portfolio.
           </p>
 	   <div className="text-center">
-        <img src="/houses.jpg" alt="Vision Image" className="img-fluid" style={{ height: "400px" }} />
+        <img src="/houses.png" alt="Vision Image" className="img-fluid" style={{ height: "400px" }} />
       </div>
           <h3>Fractional Ownership and Asset Tokenization:</h3>
           <p className="lead">
             Through our platform, you can buy fractional shares in real estate properties and SPVs. Fractional ownership allows you to own a portion of these assets, providing you with exposure to their value and potential profits. Asset tokenization converts these assets into digital representations, making them easily tradable and divisible.
           </p>
+	  <h3>Asset Classes</h3>
+	  <p className="lead">
+            At Aquo, several asset classes can be used, including real estate, fine art, forests, vintage cars, and more. Also currency pools can be corrected and used for investments to allow fixed exchange rates on local currencies on which the asset the valued. 
+	  </p>
+	  <h3>Derivatives</h3>
+	  <p className="lead">
+Derivatives are used allowing investments to be made based on underlying asset prices. 
+	  </p>
           <h3>Real Estate Investments:</h3>
           <p className="lead">
             With Aquo, you can invest in real estate properties without the need for significant capital. By purchasing fractional shares, you gain access to the potential income generated from rents and the appreciation of the property's value. This allows you to diversify your investment portfolio and participate in the real estate market with ease.
