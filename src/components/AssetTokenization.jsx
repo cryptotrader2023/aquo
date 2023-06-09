@@ -24,7 +24,8 @@ const AssetTokenization = () => {
         <div className="col">
           <h2 className="display-6">ERC721</h2>
           <p className="lead">
-            ERC721 tokens represent security tokens for fractional ownership. These tokens enable users to invest in real-world assets, such as real estate or artwork, and benefit from the advantages of fractional ownership. The ERC721 tokens are NFTs are relate to the actual share ownership in the SPV (company owning the asset). The NFT has value when the investment it confirmed and if disputed an ODR processed decides on the outcome.
+            ERC721 tokens represent security tokens for fractional ownership. These tokens enable users to invest in real-world assets, such as real estate or artwork, and benefit from the advantages of fractional ownership.
+	  The ERC721 tokens are NFTs are relate to the actual share ownership in the SPV (company owning the asset). The NFT has value when the investment is confirmed and if disputed an ODR process decides on the outcome.
           </p>
         </div>
       </div>
@@ -42,7 +43,7 @@ const AssetTokenization = () => {
         <div className="col">
           <h2 className="display-6">Stablecoin Pegging</h2>
           <p className="lead">
-            Stablecoin pegging ensures price stability by linking the value of a token to a specific asset or currency. This mechanism provides confidence and predictability in asset trading, making it easier to transact and invest with reduced volatility. Therefore teh value of NFT can be guaranteed for a particular asset. 
+            Stablecoin pegging ensures price stability by linking the value of a token to a specific asset or currency. This mechanism provides confidence and predictability in asset trading, making it easier to transact and invest with reduced volatility. Therefore the value of NFT can be guaranteed for a particular asset. 
           </p>
         </div>
       </div>
