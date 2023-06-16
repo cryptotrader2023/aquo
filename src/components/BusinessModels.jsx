@@ -1,6 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactPlayer from 'react-player';
 
 const BusinessModels = () => {
+  const videoOptions = {
+    width: '100%',
+    controls: true,
+  };
+
+  const [selectedVideo, setSelectedVideo] = useState('bRYoLzJsKac'); // Default video ID
+
+  const handleThumbnailClick = (videoId) => {
+    setSelectedVideo(videoId);
+  };
+
+  const videoThumbnails = [
+    {
+      id: 'bRYoLzJsKac', // Video 1
+      title: 'Asset Tokenization',
+    },
+    {
+      id: 'f_niZBY5ZwI', // Video 2
+      title: 'Derivatives',
+    },
+    {
+      id: 'jJve-FPa_ec', // Video 3
+      title: 'Tokenization and Derivatives',
+    },
+    {
+      id: '6akQEV3U9kI', // Video 4
+      title: 'Synthetic Tokens',
+    },
+    {
+      id: '8QC0EOLEXyo', // Video 5
+      title: 'Securitization',
+    },
+  ];
+
+  const [tooltipVisible, setTooltipVisible] = useState(null);
+
+  const handleThumbnailMouseEnter = (index) => {
+    setTooltipVisible(index);
+  };
+
+  const handleThumbnailMouseLeave = () => {
+    setTooltipVisible(null);
+  };
+
   return (
     <div className="container">
       <h1 className="text-center">Business Models</h1>
@@ -10,9 +55,9 @@ const BusinessModels = () => {
           <p className="lead">
             At Aquo, we empower you with the creation of novel business models that were previously unexplored. Our innovative approach to asset tokenization opens doors to new investment opportunities, such as gradual homeownership, future share options, tokenization of unique assets, and global reach. These models enable you to capitalize on emerging trends, diversify your portfolio, and achieve your investment objectives in innovative ways.
           </p>
-	    <div className="text-center">
-        <img src="/business.png" alt="Business" className="img-fluid" style={{ height: "400px" }} />
-      </div>
+          <div className="text-center">
+            <img src="/business.png" alt="Business" className="img-fluid" style={{ height: "400px" }} />
+          </div>
           <p className="lead">
             Our platform serves as a catalyst for innovation and growth. By embracing the power of asset tokenization, you can explore gradual homeownership models, allowing you to gradually acquire ownership in real estate properties. This approach offers flexibility and affordability, making homeownership more accessible and manageable.
           </p>
@@ -28,6 +73,49 @@ const BusinessModels = () => {
           <p className="lead">
             Join us at Aquo as we empower you with innovative business models. Our platform offers the tools, resources, and global reach necessary to capitalize on emerging investment opportunities. Together, let's reshape the future of investments and unlock the potential of asset tokenization.
           </p>
+          <div className="text-center">
+            <div className="row justify-content-center">
+              {videoThumbnails.map((video, index) => (
+                <div
+                  key={video.id}
+                  className="col-2 col-md-1"
+                  onMouseEnter={() => handleThumbnailMouseEnter(index)}
+                  onMouseLeave={handleThumbnailMouseLeave}
+                >
+                  <div style={{ position: 'relative' }}>
+                    <img
+                      src={`https://img.youtube.com/vi/${video.id}/default.jpg`}
+                      alt="Thumbnail"
+                      style={{ cursor: 'pointer', marginBottom: '10px', width: '100%' }}
+                      onClick={() => handleThumbnailClick(video.id)}
+                    />
+                    {tooltipVisible === index && (
+                      <div
+                        style={{
+                          position: 'absolute',
+                          bottom: '-25px',
+                          left: '50%',
+                          transform: 'translateX(-50%)',
+                          backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                          color: '#fff',
+                          padding: '5px',
+                          borderRadius: '5px',
+                          fontSize: '12px',
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        {video.title}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <ReactPlayer
+              url={`https://www.youtube.com/watch?v=${selectedVideo}`}
+              {...videoOptions}
+            />
+          </div>
         </div>
       </div>
     </div>
