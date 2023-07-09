@@ -27,6 +27,14 @@ const Home = () => {
               <a href="aquowp.pdf" className="btn btn-primary btn-lg ml-2">Aquo Full White Paper</a>
             </div>
           </div>
+	  <div className="text-center">
+            <p className="lead">Read our exec docs</p>
+            <div className="btn-group">
+              <a href="aquo-exec.pdf" className="btn btn-primary btn-lg">Aquo Exec Summary</a>
+	     <span style={{ width: "10px" }}></span>
+              <a href="aquopitchdeck.pptx" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck</a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="text-center">
