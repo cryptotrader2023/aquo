@@ -15,7 +15,7 @@ const BusinessModels = () => {
 
   const videoThumbnails = [
     {
-      id: 'oQQBhzHPbzc', // Video 1
+      id: 'kd8c5CSqKkI', // Video 1
       title: 'Asset Tokenization',
     },
     {
