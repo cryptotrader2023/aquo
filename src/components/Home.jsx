@@ -25,16 +25,6 @@ const Home = () => {
       />
     </div>
 	  </div>
-        <div className="col-md-12 text-center">
-          <div style={{ maxWidth: '100%', maxHeight: 'auto', display: 'inline-block' }}>
-
-	      <ReactPlayer
-              url={`https://www.youtube.com/watch?v=SE1371YbFPI`}
-	      {...videoOptions}
-
-            />
-	  </div>
-        </div>	  
         <div className="col-md-12">
 	  <div className="text-center">
             <p className="lead">Read more from our white papers</p>

@@ -124,11 +124,6 @@ const BusinessModels = () => {
       />
     </div>
 
-                  <div style={{ maxWidth: '100%', maxHeight: 'auto', display: 'inline-block' }}>
-                     <ReactPlayer
-                        url={`https://www.youtube.com/watch?v=${selectedVideo}`}
-                     />
-                  </div>
               </div>
 
     </div>
