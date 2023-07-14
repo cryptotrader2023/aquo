@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
+import './App.css';
 
 const BusinessModels = () => {
-  const videoOptions = {
-    width: '100%',
-    controls: true,
-  };
 
+	        const videoOptions = {
+  width: '100%',
+  height: 'auto',
+  controls: true,
+};
   const [selectedVideo, setSelectedVideo] = useState('oQQBhzHPbzc'); // Default video ID
 
   const handleThumbnailClick = (videoId) => {
@@ -112,6 +114,16 @@ const BusinessModels = () => {
               ))}
             </div>
 	            <div className="col-md-12 text-center">
+<div className='player-wrapper'>
+      <ReactPlayer
+        className='react-player'
+        url={`https://www.youtube.com/watch?v=${selectedVideo}`}
+        width='100%'
+        height='100%'
+          controls={true}
+      />
+    </div>
+
                   <div style={{ maxWidth: '100%', maxHeight: 'auto', display: 'inline-block' }}>
                      <ReactPlayer
                         url={`https://www.youtube.com/watch?v=${selectedVideo}`}

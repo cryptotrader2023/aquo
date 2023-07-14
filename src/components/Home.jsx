@@ -1,21 +1,37 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
+import './App.css';
 
 const Home = () => {
-  const videoOptions = {
-    width: '100%',
-    controls: true,
-  };
+	const videoOptions = {
+  width: '100%',
+  height: 'auto',
+  controls: true,
+};
+
   return (
     <div className="container">
       <h1 className="text-center">Welcome to Aquo</h1>
       <div className="row">
+	  <div className="col-md-12 text-center">
+<div className='player-wrapper'>
+      <ReactPlayer
+        className='react-player'
+        url='https://www.youtube.com/watch?v=SE1371YbFPI'
+        width='100%'
+        height='100%'
+	  controls={true}
+      />
+    </div>
+	  </div>
         <div className="col-md-12 text-center">
           <div style={{ maxWidth: '100%', maxHeight: 'auto', display: 'inline-block' }}>
 
 	      <ReactPlayer
               url={`https://www.youtube.com/watch?v=SE1371YbFPI`}
+	      {...videoOptions}
+
             />
 	  </div>
         </div>	  
