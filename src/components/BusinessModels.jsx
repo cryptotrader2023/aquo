@@ -7,7 +7,7 @@ const BusinessModels = () => {
     controls: true,
   };
 
-  const [selectedVideo, setSelectedVideo] = useState('bRYoLzJsKac'); // Default video ID
+  const [selectedVideo, setSelectedVideo] = useState('oQQBhzHPbzc'); // Default video ID
 
   const handleThumbnailClick = (videoId) => {
     setSelectedVideo(videoId);
@@ -15,15 +15,15 @@ const BusinessModels = () => {
 
   const videoThumbnails = [
     {
-      id: 'bRYoLzJsKac', // Video 1
+      id: 'oQQBhzHPbzc', // Video 1
       title: 'Asset Tokenization',
     },
     {
-      id: 'f_niZBY5ZwI', // Video 2
-      title: 'Derivatives',
+      id: 'eTsxNN8GL2M', // Video 2
+      title: 'Aquo Derivatives',
     },
     {
-      id: 'jJve-FPa_ec', // Video 3
+      id: 'SE1371YbFPI', // Video 3
       title: 'Tokenization and Derivatives',
     },
     {
@@ -86,7 +86,7 @@ const BusinessModels = () => {
                     <img
                       src={`https://img.youtube.com/vi/${video.id}/default.jpg`}
                       alt="Thumbnail"
-                      style={{ cursor: 'pointer', marginBottom: '10px', width: '100%' }}
+                      style={{ cursor: 'pointer', marginBottom: '10px' }}
                       onClick={() => handleThumbnailClick(video.id)}
                     />
                     {tooltipVisible === index && (
@@ -111,13 +111,17 @@ const BusinessModels = () => {
                 </div>
               ))}
             </div>
-            <ReactPlayer
-              url={`https://www.youtube.com/watch?v=${selectedVideo}`}
-              {...videoOptions}
-            />
-          </div>
-        </div>
-      </div>
+	            <div className="col-md-12 text-center">
+                  <div style={{ maxWidth: '100%', maxHeight: 'auto', display: 'inline-block' }}>
+                     <ReactPlayer
+                        url={`https://www.youtube.com/watch?v=${selectedVideo}`}
+                     />
+                  </div>
+              </div>
+
+    </div>
+    </div>
+    </div>
     </div>
   );
 };

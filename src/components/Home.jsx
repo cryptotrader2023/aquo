@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const videoOptions = {
@@ -35,6 +36,9 @@ const Home = () => {
               <a href="aquopitchdeck.pptx" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck</a>
             </div>
           </div>
+          <p className="lead">
+	          <Link to="/business-models" className="text-white">Aquo Videos</Link>
+</p>
           <p className="lead">
             Join Aquo today and unlock a world of asset liquidity possibilities. Experience seamless digital investment, trustworthy vetting processes, and a community of like-minded investors. Together, let's reshape the future of investments and achieve your financial goals.
           </p>
