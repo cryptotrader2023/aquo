@@ -15,11 +15,11 @@ const BusinessModels = () => {
 
   const videoThumbnails = [
     {
-      id: 'kd8c5CSqKkI', // Video 1
+      id: 'oQQBhzHPbzc', // Video 1
       title: 'Asset Tokenization',
     },
     {
-      id: 'eTsxNN8GL2M', // Video 2
+      id: 'kd8c5CSqKkI', // Video 2
       title: 'Aquo Derivatives',
     },
     {
