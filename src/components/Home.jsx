@@ -39,7 +39,9 @@ const Home = () => {
             <div className="btn-group">
               <a href="aquo-exec.pdf" className="btn btn-primary btn-lg">Aquo Exec Summary</a>
 	     <span style={{ width: "10px" }}></span>
-              <a href="aquopitchdeck.pptx" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck</a>
+              <a href="aquopitchdeck.pptx" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck (PPTX)</a>
+	     <span style={{ width: "10px" }}></span>
+              <a href="aquopitchdeck.pdf" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck (PDF)</a>
             </div>
           </div>
           <p className="lead">
