@@ -1,12 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 const AssetTokenization = () => {
+
+  const [isImageHovered, setIsImageHovered] = useState(false);
+
+
+	  const handleImageClick = () => {
+    window.location.href = '/realasset1.png';
+  };
+
+	 const handleMouseEnter = () => {
+    setIsImageHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsImageHovered(false);
+  };
+
+  const cursorStyle = isImageHovered ? { cursor: 'pointer' } : {};
+
   return (
     <div className="container">
       <h1 className="display-4">Asset Tokenization</h1>
       <p className="lead">
         Asset tokenization is a core feature of our platform, enabling enhanced liquidity and unlocking new investment opportunities.
       </p>
+
+<div className="text-center">
+        <img
+          src="/realasset1.png"
+          alt="Real Asset"
+          className="img-fluid"
+          style={{ ...cursorStyle, maxWidth: '100%', height: 'auto' }}
+          onClick={handleImageClick}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        />
+      </div>
+
+
   <div className="text-center">
         <img src="/token.png" alt="Token Image" className="img-fluid" style={{ height: "400px" }} />
       </div>
