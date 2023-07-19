@@ -1,42 +1,57 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactPlayer from 'react-player';
 
 const SecurityCompliance = () => {
   return (
     <div className="container">
       <h1 className="mt-5">Security and Compliance</h1>
+	   <div className="text-center">
+        <img src="sec.png" alt="Security Image" className="img-fluid" />
+      </div>
       <p className="lead">
-        At Aquo, we prioritize the security and compliance of our platform to provide our clients with a safe and trustworthy investment environment. Our commitment to security and compliance is fundamental to building trust and ensuring the protection of your assets. Here's why our platform is secure and compliant:
+Aquo is secure framework and the following describes the measures taken.
+
       </p>
       <ol className="lead">
         <li>
-          <strong>Comprehensive Approach:</strong> We have developed a comprehensive approach that combines off-chain and on-chain methods to maintain robust security measures. By leveraging established legal frameworks, regulatory compliance, and trusted intermediaries, we ensure the integrity of transactions and adherence to regulatory standards.
+	  The transactions themselves are wallet based and there is no custody at Aquo. Hence normal wallet security applies. We recommend using a mobile device
+	  and not a web browser when using a wallet.
+
         </li>
         <li>
-          <strong>Off-Chain and On-Chain Methods:</strong> Our hybrid approach combines the strengths of off-chain and on-chain methods. Off-chain methods enable secure transactions, while on-chain methods leverage the transparency and immutability of blockchain technology to enhance security and transparency.
+	  The actual ledgers of the real assets are all maintained off-chain by regulated agencies. Hence the actual ownership of the real asset is assured.
+
         </li>
         <li>
-          <strong>Investor Protection:</strong> We prioritize investor protection by implementing rigorous security protocols. Our platform undergoes regular security audits, ensuring that your assets and personal information are safeguarded against potential threats.
+	  The systems use synthetic tokens for trading and they track the price of the NFT (for the real asset). The synthetic tokens are claims against the NFTs and hence we can correct any errors arising from synthetic tokens. 
         </li>
         <li>
-          <strong>Regulatory Compliance:</strong> We adhere to regulatory guidelines and industry best practices to ensure compliance with relevant regulations. This includes Know Your Customer (KYC) and Anti-Money Laundering (AML) procedures to prevent fraud and maintain the highest standards of compliance.
+	  The system designs use sufficient controls (e.g. collateralized derivatives to ensure integrity).
         </li>
         <li>
-          <strong>Data Privacy:</strong> We value your privacy and handle your data with the utmost care. We have implemented stringent data protection measures to safeguard your personal and financial information.
+	  When any data is stored off-chain, secure procedures and methods are used, eg using SSL certificates, network protocol management (restricting root access, controlling open ports).
         </li>
         <li>
-          <strong>Continuous Monitoring:</strong> Our platform is continuously monitored to detect and mitigate any potential security vulnerabilities or breaches. We employ advanced security technologies and protocols to ensure a secure environment for your investments.
+	  Where needed, KYC is used so there is additional security. 
         </li>
         <li>
-          <strong>Expert Team:</strong> We have a dedicated team of security experts who are constantly monitoring and improving our platform's security infrastructure. Their expertise and proactive approach help us stay ahead of evolving security threats.
+	  Regular audits, and monitoring. 
         </li>
       </ol>
       <p className="lead">
-        By prioritizing security and compliance, Aquo aims to provide you with a reliable and trustworthy platform for asset tokenization. We understand the importance of maintaining the highest standards of security to protect your investments and provide you with peace of mind.
       </p>
       <p className="lead">
-        Join us on this journey to unlock liquidity, explore new investment opportunities, and reshape the future of investments through secure and compliant asset tokenization.
       </p>
+	  <div className='player-wrapper'>
+      <ReactPlayer
+        className='react-player'
+        url='https://www.youtube.com/watch?v=jJA3AR-tmwE'
+        width='100%'
+        height='100%'
+          controls={true}
+      />
+    </div>
     </div>
   );
 };
