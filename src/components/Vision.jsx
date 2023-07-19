@@ -1,30 +1,49 @@
 import React from 'react';
+import { ListGroup, Container } from 'react-bootstrap';
+import './App.css';
 
 const Vision = () => {
   return (
-    <div className="container">
+    <Container>
       <h1 className="display-4">Vision</h1>
-      <p className="lead">
-       Your investments should be always secure, liquid, and you should have the confidence to navigate the global investment landscape easily and with clarity. At Aquo, we understand that as an investor, trust and peace of mind are of utmost importance. Our mission is to provide you with a secure and safe platform that empowers you to unlock the true potential of your assets and seize new opportunities with unwavering confidence.
-      </p>
       <div className="text-center">
-        <img src="/vision.png" alt="Vision Image" className="img-fluid" style={{ height: "400px" }} />
+        <img src="/vision1.png" alt="Vision Image" className="img-fluid" />
       </div>
       <p className="lead">
-        We recognize the challenges posed by illiquidity in today's asset markets. It restricts your ability to access the value of your investments and hinders economic growth. That's why we harness the power of blockchain technology to revolutionize the financial landscape, ensuring that your assets can be tokenized and traded securely, transparently, and with ease.
+        Since the 1990s, there have been enormous changes in financial services with Nobel prizes for <a href="https://www.nobelprize.org/prizes/economic-sciences/1997/press-release/" target="_blank" rel="noopener noreferrer" className="white-link">options pricing models</a> (Merton and Scholes), <a href="https://www.nobelprize.org/prizes/economic-sciences/1990/press-release/" target="_blank" rel="noopener noreferrer" className="white-link">portfolio theory</a> (Markowitz), and the CAPM (Sharpe). These developments have led to the growth of financial services, financial instruments, derivatives, and considerable growth in trade and assets.
       </p>
       <p className="lead">
-        Through our innovative platform, we aim to break down the barriers that limit your financial growth. 
-	  By leveraging blockchain technology, we create a world where liquidity is no longer an obstacle, and you have the freedom to maximize the value of your assets. 
-	  Whether you are a seasoned investor or just starting your journey, our vision is to empower you with the tools and confidence to make informed financial decisions and shape your own prosperous future.
+        Now in the 2020s, new changes are happening led by decentralization, the quest to lower risk, widen financial services globally, and enable growth. Decentralization was an initial impetus for these changes, but those ideas have been extended to CBDCs, <a href="https://www.bis.org/publ/othp33.pdf" target="_blank" rel="noopener noreferrer" className="white-link">synthetic CBDCs</a>, and the acceptance that a blockchain can be used to settle a contractual condition via a smart contract executing bytecode stored replicated to ensure integrity.
       </p>
-	  <p className="lead">
-           We build new markets via new product offerings with derivatives and this is part of the Aquo Vision to maximise returns on capital, with accurate risk ratings and assessments. 
-	  </p>
       <p className="lead">
-        Together, we can build a world where trust, liquidity, and financial empowerment are the cornerstones of your investment journey. With Aquo, you can trust that your investments are safeguarded, your assets are made liquid, and you have the confidence to take control of your financial destiny.
+        The concept of tokenization has existed since the mid-2010s, but now in 2023, we have a considerable interest in synthetic tokens and defining the next wave of financial change.
       </p>
-    </div>
+      <p className="lead">
+        At Aquo, we believe that the next wave of financial change will involve the following:
+      </p>
+      <div className="lead text-left">
+        <div className="d-flex ">
+          <ListGroup>
+            <ListGroup.Item>Synthetic Tokens whose value is derived from the NFT value (underlying asset value)</ListGroup.Item>
+            <ListGroup.Item>Liquidity via DAOs replacing Securitization concepts in traditional finance</ListGroup.Item>
+            <ListGroup.Item>Novel Derivatives based on smart contracts and collateralized derivatives</ListGroup.Item>
+            <ListGroup.Item>Clearing Houses replaced by Decentralized Clearing Networks</ListGroup.Item>
+          </ListGroup>
+        </div>
+      </div>
+      <p className="lead">
+        Just as from the 1980s onward, there was widespread change, we believe that a new wave of change is happening now. With this new change, the following will happen:
+      </p>
+      <div className="lead text-left">
+        <div className="d-flex ">
+          <ListGroup>
+            <ListGroup.Item>Growth in Financial Services via new Financial Instruments</ListGroup.Item>
+            <ListGroup.Item>Widening of Financial Services with Globalization to include billions more people than today</ListGroup.Item>
+            <ListGroup.Item>Greater stability and Liquidity due to decentralizing risk</ListGroup.Item>
+          </ListGroup>
+        </div>
+      </div>
+    </Container>
   );
 };
 

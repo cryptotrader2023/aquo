@@ -9,3 +9,11 @@
   left: 0;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+.white-link {
+  color: white;
+}
+

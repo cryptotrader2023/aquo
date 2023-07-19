@@ -14,6 +14,15 @@ const Home = () => {
     <div className="container">
       <h1 className="text-center">Welcome to Aquo</h1>
       <div className="row">
+	  <div className="col-md-12 ">
+
+          <p className="lead">
+	  Aquo is an early stage project looking to revolutionize financial services. There are early stage investment opportunities in Aquo. 
+          </p>
+	  </div>
+      </div>
+	  <div className="row">
+
 	  <div className="col-md-12 text-center">
 <div className='player-wrapper'>
       <ReactPlayer
@@ -60,9 +69,6 @@ const Home = () => {
             <li>Global Reach for Investors</li>
           </ul>
         </div>
-      </div>
-      <div className="text-center">
-        <img src="/home.png" alt="Vision Image" className="img-fluid" style={{ height: "400px" }} />
       </div>
     </div>
   );
