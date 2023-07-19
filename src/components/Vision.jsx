@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import { ListGroup, Container } from 'react-bootstrap';
 import './App.css';
 
@@ -43,6 +44,17 @@ const Vision = () => {
           </ListGroup>
         </div>
       </div>
+	            <div className="col-md-12 text-center">
+<div className='player-wrapper'>
+      <ReactPlayer
+        className='react-player'
+        url='https://www.youtube.com/watch?v=TK8T9aBrrCI'
+        width='100%'
+        height='100%'
+          controls={true}
+      />
+    </div>
+          </div>
     </Container>
   );
 };

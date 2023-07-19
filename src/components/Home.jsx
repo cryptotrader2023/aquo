@@ -17,7 +17,7 @@ const Home = () => {
 	  <div className="col-md-12 ">
 
           <p className="lead">
-	  Aquo is an early stage project looking to revolutionize financial services. There are early stage investment opportunities in Aquo. 
+	  Aquo is an early stage project looking to revolutionize financial services. There are early stage investment opportunities in <a href="https://www.linkedin.com/company/aquoassets"  target="_blank" rel="noopener noreferrer" className="white-link">Aquo</a>.
           </p>
 	  </div>
       </div>
@@ -57,16 +57,15 @@ const Home = () => {
 	          <Link to="/business-models" className="text-white">Aquo Videos</Link>
 </p>
           <p className="lead">
-            Join Aquo today and unlock a world of asset liquidity possibilities. Experience seamless digital investment, trustworthy vetting processes, and a community of like-minded investors. Together, let's reshape the future of investments and achieve your financial goals.
+	    Aquo provides the following:
           </p>
           <ul className="lead">
-            <li>Real World Asset Tokenization</li>
-            <li>Increased Investment Accessibility</li>
-            <li>Security and Compliance for Investments</li>
-            <li>Diverse Investment Opportunities</li>
-            <li>Integration of Derivatives for Assets</li>
-            <li>Innovative Business Models</li>
-            <li>Global Reach for Investors</li>
+            <li>Real World Asset Tokenization Framework</li>
+            <li>Price Oracle for the Real Assets</li>
+            <li>Pegged Pricing for the Asset Tokens (Synthetic Tokens)</li>
+            <li>Liqudiity via DAOs</li>
+            <li>Derivatives Creation </li>
+            <li>Settlement via DCNs</li>
           </ul>
         </div>
       </div>
