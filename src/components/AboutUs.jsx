@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 
 const AboutUs = () => {
   return (
@@ -6,7 +7,7 @@ const AboutUs = () => {
       <div className="jumbotron mt-5">
         <h1 className="display-4">About Us</h1>
         <p className="lead">
-          Aquo is a financial framework supported by a team of experts as follows. Aquo was founded by <a href="https://uk.linkedin.com/in/trevorleeoakley" target="_blank" rel="noopener noreferrer" className="white-link">Trevor Lee Oakley</a> in January 2023 which originally an e-commerce platform. After market testing and research, the idea moved to DeFi and the product which is seen today. 
+          Aquo is a financial framework supported by a team of experts as follows. Aquo was founded by <a href="https://uk.linkedin.com/in/trevorleeoakley" target="_blank" rel="noopener noreferrer" className="white-link">Trevor Lee Oakley</a> in January 2023 which was originally an e-commerce platform. After market testing and research, the idea moved to DeFi and the product which is seen today. 
         </p>
       </div>
 
@@ -59,6 +60,18 @@ const AboutUs = () => {
            Our business team works out core business models such as transaction fee costs, subscription models, and they also manage internal operating costs for the cloud, and other key services.
         </p>
       </div>
+                    <div className="jumbotron mt-5">
+<div className='player-wrapper'>
+      <ReactPlayer
+        className='react-player'
+        url='https://www.youtube.com/watch?v=GGNmCBBhFRQ'
+        width='100%'
+        height='100%'
+          controls={true}
+      />
+    </div>
+          </div>
+
     </div>
   );
 };
