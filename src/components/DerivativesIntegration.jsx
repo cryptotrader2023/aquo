@@ -8,37 +8,46 @@ const DerivativesIntegration = () => {
         <div className="col-md-12">
           <h2>Exploring Possibilities with Derivatives</h2>
           <p className="lead">
-            Derivatives are an integral part of our investment ecosystem, offering you a wide range of possibilities and strategies to enhance your investment experience. Here's an explanation of what is possible with derivatives:
+	  Aquo enables the construction of derivatives. This take of the form of smart contracts.
+
           </p>
 	     <div className="text-center">
-        <img src="/derivatives.png" alt="Derivatives" className="img-fluid" style={{ height: "400px" }} />
+        <img src="/devi.png" alt="Derivatives" className="img-fluid"  />
       </div>
-          <h3>Risk Hedging:</h3>
+          <h3>Traditional Finance</h3>
           <p className="lead">
-            Derivatives allow you to hedge against potential risks in your investment portfolio. By using derivative contracts such as options and futures, you can protect your investments from adverse price movements.
+            Traditional Finance offers options, forwards, futures, and swaps. We extend this ideas in Aquo but smart contracts are more granular.
+
           </p>
-          <h3>Portfolio Diversification:</h3>
+          <h3>Ask/Bid</h3>
           <p className="lead">
-            Derivatives offer an avenue for portfolio diversification by providing exposure to various asset classes and markets. You can invest in derivatives linked to commodities, currencies, interest rates, and stock indices.
+            A contract is formed when there is an Ask and then a Bid. THis is done when the parties want to form a contract via Aquo.
+
           </p>
-          <h3>Leverage and Amplified Returns:</h3>
+          <h3>Types of Options</h3>
           <p className="lead">
-            Derivatives allow you to amplify your potential returns through leverage. By using margin and derivatives contracts, you can control a larger position in an asset than what you would be able to with your available capital alone.
+          Contracts need a certain level of volatility to make options worthwhile. If that is not possible via real estate, then another security can be selected.
+
           </p>
-          <h3>Sophisticated Investment Strategies:</h3>
+          <h3>How to Construct the Contract</h3>
           <p className="lead">
-            Derivatives provide a platform for implementing complex investment strategies. For instance, you can employ options strategies such as straddles, spreads, and collars to take advantage of specific market conditions or expectations.
+
+           The user will build the contract in Aquo from library functions.
+
           </p>
-          <h3>Efficient Price Discovery:</h3>
+          <h3>Counterparty Risk</h3>
           <p className="lead">
-            Derivatives contribute to efficient price discovery in the market. The continuous trading and pricing of derivatives contracts provide valuable information about market expectations and sentiment.
+        This is done via collateralized derivatives which have margin payments paid to them. 
+
           </p>
-          <h3>Risk Management for Businesses:</h3>
+          <h3>Novel Derivatives</h3>
           <p className="lead">
-            Derivatives are not limited to individual investors; they also play a crucial role in risk management for businesses. Companies can utilize derivatives to mitigate risks associated with currency fluctuations, interest rate changes, and commodity price volatility.
+
+	  Novel derivatives could set a price based on any condition. For real estate, the option could be based on the actual real estate price.
           </p>
+	  <h3>Margin</h3>
           <p className="lead">
-            At Aquo, we integrate derivatives into our investment ecosystem, enabling you to hedge risks, diversify portfolios, and implement sophisticated investment strategies. Our platform provides the tools and resources necessary to navigate the derivatives market effectively and maximize your investment potential.
+            Margin can be used for derivatives.
           </p>
         </div>
       </div>
