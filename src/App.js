@@ -13,6 +13,7 @@ import BusinessModels from './components/BusinessModels';
 import MarketSize from './components/MarketSize';
 import JoinUs from './components/JoinUs';
 import './ColorStyles.css';
+import './App.css';
 
 const App = () => {
   return (
@@ -20,7 +21,9 @@ const App = () => {
       <Router>
         <Navbar  variant="dark" expand="lg" className="custom-navbar">
           <div className="container">
-            <NavLink className="navbar-brand" exact to="/">AQUO</NavLink>
+            <NavLink className="navbar-brand" exact to="/">  
+	  <img src="/whitelogo.png" alt="Logo" className="logo-img" />
+</NavLink>
             <Navbar.Toggle aria-controls="navbarNav" />
             <Navbar.Collapse id="navbarNav">
               <Nav className="ml-auto lead">
