@@ -17,12 +17,12 @@ const InvestmentOpportunities = () => {
       </div>
           <h3>Asset Tokens</h3>
           <p className="lead">
-	  Once an investor has asset tokens, they are entitled to earnings from the real asset. These are typically dividends. These payments can be made to an account of the nominated by the investor.
+	  Once an investor has asset tokens, they are entitled to earnings from the real asset. These are typically dividends. These payments can be made to an account nominated by the investor.
 
           </p>
 	  <h3>Derivatives</h3>
 	  <p className="lead">
-Derivatives are contracts. These contracts may be created using a Bid/Ask on Aquo. Then the contract will be stored in a smart contract and it will executed normally. Margin trade can allow additional risks to be taken. The profit is in premiums for example when using options or by exercising the option. 
+Derivatives are contracts. These contracts may be created using a Ask/Bid on Aquo. Then the contract will be stored in a smart contract and it will execute normally. Margin trade can allow additional risks to be taken. The profit is in premiums for example when using options or by exercising the option. 
 
 	  </p>
         </div>

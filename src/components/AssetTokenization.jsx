@@ -63,13 +63,13 @@ const AssetTokenization = () => {
         <div className="col">
           <h2 className="display-6">Trading Synthetic Tokens</h2>
           <p className="lead">
-	    Trading NFTs and changing actual shares in the SPV would be a costly and time consuming series of events. Therefore, we will mint synthetic tokens for the NFTs on a one-to-one basis. Then as the owners trade, they can trade the synthetic tokens. This will result in token holders having claims to the NFTs. The NFT then has claims to the actual SPV shares.
+	    Trading NFTs and changing actual shares in the SPV would be a costly and time consuming series of events. Therefore, we will mint synthetic tokens for the NFTs on a one-to-one basis. Then as the owners trade, they can trade the synthetic tokens. This will result in token holders having claims to the NFTs. The NFTs then have claims to the actual SPV shares.
           </p>
 	  <p className="lead">
              An example follows. Alice buys 100 NFTs for an SPV which has 100 shares. Each share costs 1,000 dollars. Alice sells all the NFTs to Bob. Bob then wants to claim to the SPV shares and hence the SPV has to change ownership to Bob. Off-chain systems are maintained for security. This is a costly way to maintain shares.
 	  </p>
 	  <p className="lead">
-             It is more cost effective to trade a synthetic token and not the NFT. Hence the NFT itself is minted and claims against the shares and the NFT is owned by the SPV itself. For 100 shares being issued, the shares are all owned by the SPV and NFTs by the SPV. Then the synthetic tokens are minted and traded. Alice has 100 synthetic tokens which she sells to Bob. Then Bob has the claims against the NFTs and hence the SPV.
+             It is more cost effective to trade a synthetic token and not the NFT. Hence the NFT itself is minted and claims against the shares and the NFT is owned by the SPV itself. For 100 shares being issued, the shares are all owned by the SPV and also the NFTs are owned by the SPV. Then the synthetic tokens are minted and traded. Alice has 100 synthetic tokens which she sells to Bob. Then Bob has the claims against the NFTs and hence the SPV.
 	  </p>
         </div>
       </div>
