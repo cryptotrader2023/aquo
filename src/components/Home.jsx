@@ -53,6 +53,9 @@ const Home = () => {
               <a href="aquopitchdeck.pdf" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck (PDF)</a>
             </div>
           </div>
+	    <div className="text-center">
+        <img src="/pre-seed.png" alt="Preseed Image" className="img-fluid" />
+      </div>
           <p className="lead">
 	          <Link to="/business-models" className="text-white">Aquo Videos</Link>
 </p>
