@@ -40,6 +40,10 @@ const BusinessModels = () => {
       id: 'GGNmCBBhFRQ', // Video 5
       title: 'About Us',
     },
+    {
+      id: '5BYZjNWOghY', // Video 5
+      title: 'Wireframe',
+    },
   ];
 
   const [tooltipVisible, setTooltipVisible] = useState(null);

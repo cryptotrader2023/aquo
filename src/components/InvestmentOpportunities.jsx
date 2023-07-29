@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ReactPlayer from 'react-player';
 const InvestmentOpportunities = () => {
   return (
     <div className="container">
@@ -25,6 +25,17 @@ const InvestmentOpportunities = () => {
 Derivatives are contracts. These contracts may be created using a Ask/Bid on Aquo. Then the contract will be stored in a smart contract and it will execute normally. Margin trade can allow additional risks to be taken. The profit is in premiums for example when using options or by exercising the option. 
 
 	  </p>
+	   <div className="col-md-12 text-center">
+<div className='player-wrapper'>
+      <ReactPlayer
+        className='react-player'
+        url='https://www.youtube.com/watch?v=5BYZjNWOghY'
+        width='100%'
+        height='100%'
+          controls={true}
+      />
+    </div>
+          </div>
         </div>
       </div>
     </div>

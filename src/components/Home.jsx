@@ -51,6 +51,8 @@ const Home = () => {
               <a href="aquopitchdeck.pptx" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck (PPTX)</a>
 	     <span style={{ width: "10px" }}></span>
               <a href="aquopitchdeck.pdf" className="btn btn-primary btn-lg ml-2">Aquo Pitch Deck (PDF)</a>
+	     <span style={{ width: "10px" }}></span>
+              <a href="wireframe.pdf" className="btn btn-primary btn-lg ml-2">Aquo Wireframe</a>
             </div>
           </div>
 	    <div className="text-center">
