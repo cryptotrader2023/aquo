@@ -29,7 +29,7 @@ Aquo is a DeFi composition project defining DeFi 2.0. The pitchdeck on this page
 <div className='player-wrapper'>
       <ReactPlayer
         className='react-player'
-        url='https://www.youtube.com/watch?v=SE1371YbFPI'
+        url='https://www.youtube.com/watch?v=8Xq7CO7gk80'
         width='100%'
         height='100%'
 	  controls={true}
