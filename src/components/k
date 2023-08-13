@@ -1,2 +1,0 @@
-sed 's/apple/orange/g' data.txt
-
