@@ -38,7 +38,7 @@ const AboutUs = () => {
 	  <div className="jumbotron mt-5">
         <h1 className="display-6">Compliance</h1>
         <p className="lead">
-	  DeFi is largely unregulated but we focus on common sense compliance to ensure users do not use their monies. We are a non-custody solution and hence funds are managed directly in smart contracts (code accounts) or by users in their own wallets.
+	  DeFi is largely unregulated but we focus on common sense compliance to ensure users control their monies. We are a non-custody solution and hence funds are managed directly in smart contracts (code accounts) or by users via their own wallets.
         </p>
       </div>
 

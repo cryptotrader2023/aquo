@@ -64,7 +64,7 @@ Aquo is a DeFi composition project defining DeFi 2.0. The pitchdeck on this page
           </p>
           <ul className="lead">
             <li>Integration of DeFi protocols into a single transaction</li>
-            <li>Construction of complex financial products e.g. options, lending, swaps into one transactions </li>
+            <li>Construction of complex financial products e.g. options, lending, swaps into one transaction </li>
 	    <li>Risk management via transparency, collateralization, and trusted building blocks</li>
 	    <li>Developing a new ERC standard for DeFi protocol integrations</li>
 	  <li>Core services for asset tokenization, integration into decentralized oracles, and synthetic assets</li>
